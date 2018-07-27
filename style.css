@@ -1,4 +1,14 @@
-
+.search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 25px;
+}
+@media screen and (max-width:1024px) {
+    .search {
+        display: none;
+    }
+}
 
 .logo {
   margin: 3px 0;
@@ -6,13 +16,7 @@
 	margin-left: 25px;
 }
 
-.search{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-right: 25px;
 
-}
 .button{
   color: white;
   background: linear-gradient(to left, #0e88f9 , #1b0066);
@@ -32,7 +36,7 @@ height: 27px;
 }
 
 .menu {
-  width: 57%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
